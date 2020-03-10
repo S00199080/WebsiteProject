@@ -1,0 +1,68 @@
+header{
+    
+    background: rgb(132,21,208);   
+    background: linear-gradient(90deg, rgba(132,21,208,1) 0%, rgba(137,0,255,1) 0%, rgba(157,0,241,1) 27%, rgba(190,80,237,1) 65%, rgba(187,0,255,1) 98%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75px; 
+    width: auto;
+    color: linear-gradient(90deg, rgba(137,196,122,1) 0%, rgba(3,251,236,1) 60%, rgba(0,212,255,1) 94%);
+    border-color: black;
+    border: 5px;
+    font: consolas;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+        
+}
+html{
+    background: rgb(137,196,122);
+    background: linear-gradient(90deg, rgba(137,196,122,1) 0%, rgba(3,251,236,1) 60%, rgba(0,212,255,1) 94%);
+    
+    background-repeat: no-repeat;
+    width: auto;   
+    background-size: cover;
+}
+    
+nav{
+    background: linear-gradient(90deg, rgba(132,21,208,1) 0%, rgba(137,0,255,1) 0%, rgba(157,0,241,1) 27%, rgba(190,80,237,1) 65%, rgba(187,0,255,1) 98%);
+    padding: 5px;
+    border: 5px;
+    font: consolas;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+nav ul{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px;
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    background-color: linear-gradient(90deg, rgba(137,196,122,1) 0%, rgba(3,251,236,1) 60%, rgba(0,212,255,1) 94%);;
+    display: inline;
+    margin: 15px; 
+    border: 15px;
+    border-radius: 1px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px; 
+    border: 15px;
+}
+nav ul li:hover{
+    background-color: lightblue;
+}
